@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>NineStars</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <h1 class="text-light">Ninestars</h1>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Home</a>
+              </li>
+              <li>
+                <a href="#aboutus" class="scroll-link">About Us</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link service">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="scroll-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#faq" class="scroll-link">Questions</a>
+              </li>
+              <li>
+                <a href="#team" class="scroll-link">Team</a>
+              </li>
+              
+                <a href="#contact" class="scroll-link">Contact</a>
+              </li>
+              <li>
+                <button class="scroll-link get-btn">Get Started</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-img-box">
+          <img src="img/hero-img.svg" class="hero-img" alt="hero-img" />
+        </div>
+        <div class="hero-content">
+          <h2>Bettter digital experience with Ninestars</h2>
+          <p>
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <a href="#getstarted">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <section id="aboutus">
+      <div class="about-container">
+        <div class="about-img-box" data-aos="fade-up">
+          <img class="about-img" src="img/about-img.svg" alt="about image"/>
+        </div>
+        <div class="about-content-main">
+          <div class="about-contet">
+            <h2 data-aos="fade-up">Voluptatem dignissimos provident quasi</h2>
+            <p data-aos="fade-up">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+              aute irure dolor in reprehenderit
+            </p>
+          </div>
+          <div class="about-contet-item-box">
+            <div class="about-contet-item" data-aos="fade-up">
+              <i class="bi bi-receipt "></i>
+              <h4>Corporis voluptates sit</h4>
+              <p >
+                Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                laboris nisi ut aliquip
+              </p>
+            </div>
+            <div class="about-contet-item" data-aos="fade-up">
+              <i class="bi bi-box"></i>
+              <h4>Ullamco laboris nisi</h4>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services-container">
+      <div data-aos="fade-up">
+        <div class="services-header section-header">
+          <h4>Services</h4>
+          <p>Check out the great services we offer</p>
+          <div class="line-box">
+          <img class="line" src="img/line-bottom.svg" alt="line">
+          </div>
+        </div>
+        <div class="services">
+            <div class="icon-box" data-aos="zoom-in">
+              <i class="bi bi-dribbble"></i>
+              <h4>Lorem Ipsum</h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+            </div>
+            <div class="icon-box" data-aos="zoom-in">
+              <i class="bi bi-file-earmark-text"></i>
+              <h4>Sed ut perspiciatis</h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+            </div>
+              <div class="icon-box" data-aos="zoom-in">
+                <i class="bi bi-speedometer"></i>
+                <h4>Magni Dolores</h4>
+                <p class="special">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+              </div>
+              <div class="icon-box" data-aos="zoom-in">
+                <i class="bi bi-globe-central-south-asia"></i>
+                <h4>Nemo Enim</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+              </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio-section">
+      <div class="portfolio-title section-header" data-aos="fade-up">
+        <h4>Portfolio</h4>
+        <p>Check out our beautifull portfolio</p>
+        <div class="line-box">
+          <img class="line" src="img/line-bottom.svg" alt="line">
+        </div>
+      </div>
+      <!-- filter buttons -->
+      <div class="btn-container" data-aos="fade-right">
+         <button type="button" class="filter-btn" data-id="all">All</button>
+        <button type="button" class="filter-btn" data-id="app">
+          App
+        </button>
+        <button type="button" class="filter-btn" data-id="card">Card</button>
+        <button type="button" class="filter-btn" data-id="web">
+          Web
+        </button> 
+      </div>
+      <!-- menu items -->
+      <div class="section-center" data-aos="zoom-in">
+        <!-- single item -->
+        <!-- end of single item -->
+      </div>
+    </section>
+    <section id="faq" class="questions-section">
+      <div class="questions-title section-header" data-aos="fade-up">
+        <h4>F.A.Q</h4>
+        <p>Frequently Asked Questions</p>
+        <div class="line-box">
+          <img class="line" src="img/line-bottom.svg" alt="line">
+        </div>
+      </div>
+      <div class="content-container" data-aos="fade-up">
+        <!--QUESTION AND ANSWER START-->
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </p>
+          </div>
+        </article>
+        <hr />
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </p>
+          </div>
+        </article>
+        <hr />
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+            </p>
+          </div>
+        </article>
+        <hr />
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </p>
+          </div>
+        </article>
+        <hr />
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+            </p>
+          </div>
+        </article>
+        <hr />
+        <article class="question">
+          <div class="question-title">
+            <button class="question-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="down-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="up-icon">
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+            </button>
+            <h3>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</h3>
+          </div>
+          <div class="question-text">
+            <p>
+              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+            </p>
+          </div>
+        </article>
+        <hr />
+      </div>
+    </section>
+    <section id="team" class="team-section">
+      <div class="team-title section-header" data-aos="fade-up">
+        <h4>Team</h4>
+        <p>Our team is always here to help</p>
+        <div class="line-box">
+          <img class="line" src="img/line-bottom.svg" alt="line">
+        </div>
+      </div>
+      <div class="team-img-container">
+        <div class="team-img" data-aos="fade-up">
+          <img class="team-photo" src="img/team/team-1.jpg" alt="walter white">
+          <div class="team-info">
+            <div class="team-about">
+              <span class="name">Walter White</span>
+              <span class="job">Chief Executive Officer</span>
+            </div>
+            <div>
+            <ul class="social-icon-list">
+              <li><a href="#"><i class="bi bi-twitter team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin team-social"></i></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-img" data-aos="fade-up">
+          <img class="team-photo" src="img/team/team-2.jpg" alt="Sarah Jonsons">
+          <div class="team-info">
+            <div class="team-about">
+              <span class="name">Sarah Jonsons</span>
+              <span class="job">Product Manager</span>
+            </div>
+            <div>
+            <ul class="social-icon-list">
+              <li><a href="#"><i class="bi bi-twitter team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin team-social"></i></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-img" data-aos="fade-up">
+          <img class="team-photo" src="img/team/team-3.jpg" alt="William Anderson">
+          <div class="team-info">
+            <div class="team-about">
+              <span class="name">William Anderson</span>
+              <span class="job">CTO</span>
+            </div>
+            <div>
+            <ul class="social-icon-list">
+              <li><a href="#"><i class="bi bi-twitter team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin team-social"></i></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-img" data-aos="fade-up">
+          <img class="team-photo" src="img/team/team-4.jpg" alt="Amanda Jepson">
+          <div class="team-info">
+            <div class="team-about">
+              <span class="name">Amanda Jepson</span>
+              <span class="job">Accountant</span>
+            </div>
+            <div>
+            <ul class="social-icon-list">
+              <li><a href="#"><i class="bi bi-twitter team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram team-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin team-social"></i></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="clients-section clients section-bg">
+      <div class="clients-title section-header" data-aos="fade-up">
+        <h4>Clients</h4>
+        <p>They trusted us</p>
+        <div class="line-box">
+          <img  class="line" src="img/line-bottom.svg" alt="line">
+        </div>
+      </div>
+      <div class="clients-slider swiper"  data-aos="fade-up">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="img/clients/client-1.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-2.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-3.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-4.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-5.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-6.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-7.png" class="img-fluid" alt="client"></div>
+          <div class="swiper-slide"><img src="img/clients/client-8.png" class="img-fluid" alt="client"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="team-title section-header" data-aos="fade-up">
+        <h4>Contact Us</h4>
+        <p>Contact us the get started</p>
+        <div class="line-box">
+          <img class="line" src="img/line-bottom.svg" alt="line">
+        </div>
+      </div>
+      <div class="contact-main-container">
+        <div class="contact-content" data-aos="fade-up">
+          <div class="contact-info-box">
+            <div class="contact-info">
+              <i class="bi bi-geo-alt contact-icon"></i>
+              <div class="contact-address">
+                <p>Location:</p>
+                <span>A108 Adam Street, New York, NY 535022</span>
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="bi bi-envelope contact-icon"></i>
+              <div class="contact-address">
+                <p>Email:</p>
+                <span>info@example.com</span>
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="bi bi-phone contact-icon"></i>
+              <div class="contact-address">
+                <p>Call:</p>
+                <span>+1 5589 55488 55s</span>
+              </div>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"  frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-up">
+          <div class="contact-form-items">
+            <form>
+              <div class="form-header">
+                <div>
+                  <label for="fname">Your Name</label><br>
+                  <input type="text" id="nameInp" name="fname" placeholder="Your Name"  required><br>
+                </div>
+                <div>
+                  <label for="email">Your Email</label><br>
+                  <input type="email" id="emailInp" name="email" placeholder="Your Email"  required><br>
+                </div>
+              </div>
+              <label for="subject">Subject</label><br>
+              <input type="text" id="subjectInp" name="subject" placeholder="Subject"  required><br>
+              <label for="subject">Message</label><br>
+              <textarea id="messageInp" name="subject"></textarea>
+            </form>
+            <div class="btn-send">
+              <button id="submit_btn" class="send-btn">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-subscribe" >
+      <div class="subscribe" data-aos="fade-up">
+        <h4>Join Our Newsletter</h4>
+        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+      </div>
+      <div class="subscribe-items" data-aos="fade-up">
+          <input class="subscribe-email" type="email" name="email">
+          <button class="subscribe-submit">Subscribe</button>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1" data-aos="fade-up">
+          <div class="footer-item-1">
+            <address>
+              <h3>Ninestars</h3>
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p> United States </p>
+            </address>  
+          </div>
+          <div class="footer-item-2">
+            <p><span>Phone: </span> +1 5589 55488 55</p>
+            <p><span>Email: </span> info@example.com</p>
+          </div>
+        </div>
+        <div class="footer-box-2 footer-container-list" data-aos="fade-up">
+          <h4>Useful Links</h4>
+          <ul class="footer-list">
+            <li><i class="bi bi-chevron-right"></i><p>Home</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>About us</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Services</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Terms of service</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Privacy policy</p></li>
+          </ul>
+        </div>
+        <div class="footer-box-3 footer-container-list" data-aos="fade-up">
+          <h4>Our Services</h4>
+          <ul class="footer-list">
+            <li><i class="bi bi-chevron-right"></i><p>Web Design</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Web Development</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Product Management</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Marketing</p></li>
+            <li><i class="bi bi-chevron-right"></i><p>Graphic Design</p></li>
+          </ul>
+        </div>
+        <div class="footer-box-4 footer-container-list" data-aos="fade-up">
+          <h4>Our Social Networks</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <ul class="footer-list-social">
+            <li><a href="#"><i class="bi bi-twitter footer-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook footer-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram footer-social"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin footer-social"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© Copyright <span>Ninestars.</span> All Rights Reserved</p>
+      <p>Designed by <a href="#">Nika Merebashvili</a></p>
+    </footer>
+    <a href="#home" class="top-link">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
